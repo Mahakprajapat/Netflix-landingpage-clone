@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(54, 52, 52);
+}
+header{
+    width: 100%;
+    background: url('../image/bg.jpg') center;
+    background-size: cover;
+    position: relative;
+    /* z-index: 99999; */
+}
+
+.blackbackground{
+    background-color: rgb(0 0 0 / 20%);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+nav{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+}
+nav img{
+    width: 200px;
+}
+.sign-in{
+    display: flex;
+    
+}
+.sign-in select{
+    border: 1px solid gray;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+   
+}
+.sign-in .color{
+    color:black;
+}
+.footerdrop .color{
+    color:black;
+}
+.sign-in-btn{
+    background-color: red;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.sign-in-btn a{
+    color: white;
+    text-decoration: none;
+}
+header .mainheading{
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 0px ; 
+    /* padding-bottom: 100px ; */
+    /* border: 1px solid white; */
+}
+.mainheading .heading{
+    flex-basis: 100%;
+    color: white;
+    text-align: center;
+}
+.heading h1{
+    font-size: 48px;
+    font-weight: 900;
+    z-index: 9999;
+    margin-top: 70px;
+}
+.heading p{
+    font-size: 24px;
+    padding-top: 15px;
+}
+.mainheading .inputarea{
+    flex-basis: 100%;
+    display: flex;
+    text-align: center;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+.inputarea input{
+    width: 400px;
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    opacity: 0.8;
+    background-color: black;
+    line-height: 24px;
+    padding: 16px 8px ;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+    
+}
+
+
+.inputarea button {
+    font-size: 24px;
+    font-weight: 500;
+    min-height: 56px;
+    padding: 12px 24px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+}
+.inputarea button a{
+    text-decoration: none;
+    color: white;
+}
+/* =====================================section2=============================== */
+section{
+   width: 100%;
+   margin: 10px 0px;
+   background-color: black;
+}
+.tvsection{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    padding: 30px 0px ;
+    justify-content: space-between;
+    align-items: center;
+}
+.tvsectionleft{
+    flex-basis: 47%;
+    color: white;
+    text-align: start;
+    margin-left: 30px;
+}
+.tvsectionleft h2{
+    font-size: 45px;
+    font-weight: 700;    
+}
+.tvsectionleft p{
+    font-size: 21px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.tvsectionright{
+    flex-basis: 47%;
+    position: relative;
+    z-index: 999;
+}
+
+.tvsectionright img{
+    width: 600px;
+    height: 400px;
+   
+}
+.tvsectionvideo{
+    position: absolute;
+    right: 200px;
+    overflow: hidden;  
+}
+.watchvideo{
+    position: absolute;
+    right: 240px;
+    bottom: -1205px;
+    overflow: hidden; 
+}
+/* ============================section3======================= */
+.downloadshow{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    padding: 30px 0px ;
+    justify-content: space-between;
+    align-items: center;
+}
+.downloadleft{
+    flex-basis: 47%;
+}
+.downloadleft img{
+    width: 600px;
+    height: 400px;
+}
+.downloadright{
+    flex-basis: 47%;
+    color: white;
+    text-align: start;
+}
+.downloadright h2{
+    font-size: 45px;
+    font-weight: 800;    
+}
+.downloadright p{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 40px 0px 0px;
+}
+/* ================================section4=============================== */
+.question{
+    max-width: 1300px;
+    margin: auto;
+    border: 1px solid white;
+}
+.question .questionheading{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+ .questioninner{
+    max-width: 1300px;
+    border: 1px solid white;
+    margin: auto;
+}
+.questioninner ul li{
+    color: white;
+    list-style: none;
+}
+/* ======================footer====================== */
+footer{
+    width: 100%;
+    background-color: black;  
+}
+.footermain{
+    max-width: 1000px;
+    margin: auto;
+}
+footer .footercall{
+    max-width: 1000px;
+    color: rgba(255,255,255,0.7);
+    font-size: 10px;
+    margin:  auto;
+    padding: 50px 0px 30px 0px;
+}
+footer .footerinner{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.list{
+    flex-basis: 30%;    
+    color: rgba(255,255,255,0.7);
+}
+.list ul li{
+    list-style: none;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 500;
+}
+.footerdrop{
+    max-width:1000px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.footerdrop select{
+    /* flex-basis: 20px; */
+    border: 1px solid gray;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+/* acc */
+.Frequently h2{
+    font-size: 45px;
+    font-weight: 700; 
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+}
+:root {
+    font-family: sans-serif;
+    color: white;
+    background: #242222;
+  }
+  
+  .wrapper {
+    max-width: 55em;
+    margin: auto;
+    padding: 40px 0px;
+    
+  }
+  
+  .accordion {
+    --padding: 1.3em;
+    /* border: 2px solid #D9D9D9; */
+    margin-bottom: .8em;  
+    background: #242222;
+    width: 900px;
+    
+  }
+  
+  .accordion-title {
+    padding: var(--padding);
+    padding-right: 2em; /* save space for icon */
+    display: block;
+    font-weight: 600;
+    position: relative;
+    color: white;
+  }
+  
+  .accordion-content {
+    padding: 0 var(--padding) var(--padding);
+    display: none;
+  }
+  
+  input {
+    display: none;
+  }
+  
+  .accordion:has(input:checked) .accordion-content {
+    display: block;
+  }
+  
+  /* Icon */
+  .accordion-title::after,
+  .accordion-title::before{
+    content: "";
+    display: block;
+    width: .15em;
+    height: .75em;
+    /* background: #191717; */
+    background: white;
+    position: absolute;
+    right: 1.25em;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    color: white;
+  }
+  
+  .accordion-title::before {
+    transform: translateY(-50%) rotate(0deg);
+    color: white;
+  }
+  
+  
+  .accordion:has(input:checked) .accordion-title::before {
+      opacity: 0;
+  }
